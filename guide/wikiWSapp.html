@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>WS Application Methods and Types | Dlubal Dev Docs</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/.github/favicon.ico">
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/.github/assets/css/0.styles.d2d87d18.css" as="style"><link rel="preload" href="/.github/assets/js/app.a4351b77.js" as="script"><link rel="preload" href="/.github/assets/js/2.b144fbf9.js" as="script"><link rel="preload" href="/.github/assets/js/72.143f237b.js" as="script"><link rel="prefetch" href="/.github/assets/js/10.26431a65.js"><link rel="prefetch" href="/.github/assets/js/11.e299b917.js"><link rel="prefetch" href="/.github/assets/js/12.48d8f8be.js"><link rel="prefetch" href="/.github/assets/js/13.06ea4a4a.js"><link rel="prefetch" href="/.github/assets/js/14.20f03065.js"><link rel="prefetch" href="/.github/assets/js/15.de7ef540.js"><link rel="prefetch" href="/.github/assets/js/16.7086d0c4.js"><link rel="prefetch" href="/.github/assets/js/17.b0e39151.js"><link rel="prefetch" href="/.github/assets/js/18.4774ea1c.js"><link rel="prefetch" href="/.github/assets/js/19.d7703ee9.js"><link rel="prefetch" href="/.github/assets/js/20.34dc0839.js"><link rel="prefetch" href="/.github/assets/js/21.97045b44.js"><link rel="prefetch" href="/.github/assets/js/22.b0d11e75.js"><link rel="prefetch" href="/.github/assets/js/23.18946500.js"><link rel="prefetch" href="/.github/assets/js/24.65ccdfae.js"><link rel="prefetch" href="/.github/assets/js/25.f5e61944.js"><link rel="prefetch" href="/.github/assets/js/26.dd389e11.js"><link rel="prefetch" href="/.github/assets/js/27.2c01d777.js"><link rel="prefetch" href="/.github/assets/js/28.10bce8b0.js"><link rel="prefetch" href="/.github/assets/js/29.fe60b667.js"><link rel="prefetch" href="/.github/assets/js/3.31f6c2e5.js"><link rel="prefetch" href="/.github/assets/js/30.202fb1fc.js"><link rel="prefetch" href="/.github/assets/js/31.6c0f8927.js"><link rel="prefetch" href="/.github/assets/js/32.29020780.js"><link rel="prefetch" href="/.github/assets/js/33.98417bc1.js"><link rel="prefetch" href="/.github/assets/js/34.27fa11d8.js"><link rel="prefetch" href="/.github/assets/js/35.6629fb57.js"><link rel="prefetch" href="/.github/assets/js/36.477ec812.js"><link rel="prefetch" href="/.github/assets/js/37.0c155454.js"><link rel="prefetch" href="/.github/assets/js/38.1d562280.js"><link rel="prefetch" href="/.github/assets/js/39.e95648be.js"><link rel="prefetch" href="/.github/assets/js/4.6cef6604.js"><link rel="prefetch" href="/.github/assets/js/40.b3622ea1.js"><link rel="prefetch" href="/.github/assets/js/41.2978cdcc.js"><link rel="prefetch" href="/.github/assets/js/42.f3e4e2ec.js"><link rel="prefetch" href="/.github/assets/js/43.b95932b9.js"><link rel="prefetch" href="/.github/assets/js/44.2c00259c.js"><link rel="prefetch" href="/.github/assets/js/45.c6c8d180.js"><link rel="prefetch" href="/.github/assets/js/46.037cf94f.js"><link rel="prefetch" href="/.github/assets/js/47.a641e6fc.js"><link rel="prefetch" href="/.github/assets/js/48.3723161e.js"><link rel="prefetch" href="/.github/assets/js/49.222212bf.js"><link rel="prefetch" href="/.github/assets/js/5.40bc72f9.js"><link rel="prefetch" href="/.github/assets/js/50.f0328cd6.js"><link rel="prefetch" href="/.github/assets/js/51.1e7b2fff.js"><link rel="prefetch" href="/.github/assets/js/52.76731089.js"><link rel="prefetch" href="/.github/assets/js/53.4c31e1c3.js"><link rel="prefetch" href="/.github/assets/js/54.364b4e1a.js"><link rel="prefetch" href="/.github/assets/js/55.80c503f9.js"><link rel="prefetch" href="/.github/assets/js/56.87de2c22.js"><link rel="prefetch" href="/.github/assets/js/57.705bcc71.js"><link rel="prefetch" href="/.github/assets/js/58.99b53de2.js"><link rel="prefetch" href="/.github/assets/js/59.3d3cf014.js"><link rel="prefetch" href="/.github/assets/js/6.df8f50a6.js"><link rel="prefetch" href="/.github/assets/js/60.d0d4f360.js"><link rel="prefetch" href="/.github/assets/js/61.932903f2.js"><link rel="prefetch" href="/.github/assets/js/62.92fb531c.js"><link rel="prefetch" href="/.github/assets/js/63.d1065d24.js"><link rel="prefetch" href="/.github/assets/js/64.981bd816.js"><link rel="prefetch" href="/.github/assets/js/65.c7f87f75.js"><link rel="prefetch" href="/.github/assets/js/66.f62ea710.js"><link rel="prefetch" href="/.github/assets/js/67.ff2daa43.js"><link rel="prefetch" href="/.github/assets/js/68.340ad4ab.js"><link rel="prefetch" href="/.github/assets/js/69.e1370cda.js"><link rel="prefetch" href="/.github/assets/js/7.9cb7d0ec.js"><link rel="prefetch" href="/.github/assets/js/70.0f718a90.js"><link rel="prefetch" href="/.github/assets/js/71.25608392.js"><link rel="prefetch" href="/.github/assets/js/73.be8f8eba.js"><link rel="prefetch" href="/.github/assets/js/8.97cc6992.js"><link rel="prefetch" href="/.github/assets/js/9.fb1f3eca.js">
+    <link rel="stylesheet" href="/.github/assets/css/0.styles.d2d87d18.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/.github/" class="home-link router-link-active"><img src="/.github/images/dev_docs.png" alt="Dlubal Dev Docs" class="logo"> <span class="site-name can-hide">Dlubal Dev Docs</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/.github/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="User Guide" class="dropdown-title"><span class="title">User Guide</span> <span class="arrow down"></span></button> <button type="button" aria-label="User Guide" class="mobile-dropdown-title"><span class="title">User Guide</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/.github/guide/" class="nav-link router-link-active">
+  Quick Start
+</a></li><li class="dropdown-item"><!----> <a href="/.github/guide/ready.html" class="nav-link">
+  RFEM Python
+</a></li><li class="dropdown-item"><!----> <a href="/.github/guide/Articles.html" class="nav-link">
+  Articles
+</a></li><li class="dropdown-item"><!----> <a href="/.github/guide/RSTAB.BasicObjects.html" class="nav-link">
+  RSTAB Python
+</a></li><li class="dropdown-item"><!----> <a href="/.github/guide/netintro.html" class="nav-link">
+  .NET
+</a></li><li class="dropdown-item"><!----> <a href="/.github/guide/MD/AnalysisSettings.html" class="nav-link">
+  JavaScript
+</a></li><li class="dropdown-item"><!----> <a href="/.github/guide/tutorialintro.html" class="nav-link">
+  Tutorials
+</a></li></ul></div></div><div class="nav-item"><a href="https://www.dlubal.com/en" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  About
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://github.com/Dlubal-Software/RFEM_Python_Client" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/.github/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="User Guide" class="dropdown-title"><span class="title">User Guide</span> <span class="arrow down"></span></button> <button type="button" aria-label="User Guide" class="mobile-dropdown-title"><span class="title">User Guide</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/.github/guide/" class="nav-link router-link-active">
+  Quick Start
+</a></li><li class="dropdown-item"><!----> <a href="/.github/guide/ready.html" class="nav-link">
+  RFEM Python
+</a></li><li class="dropdown-item"><!----> <a href="/.github/guide/Articles.html" class="nav-link">
+  Articles
+</a></li><li class="dropdown-item"><!----> <a href="/.github/guide/RSTAB.BasicObjects.html" class="nav-link">
+  RSTAB Python
+</a></li><li class="dropdown-item"><!----> <a href="/.github/guide/netintro.html" class="nav-link">
+  .NET
+</a></li><li class="dropdown-item"><!----> <a href="/.github/guide/MD/AnalysisSettings.html" class="nav-link">
+  JavaScript
+</a></li><li class="dropdown-item"><!----> <a href="/.github/guide/tutorialintro.html" class="nav-link">
+  Tutorials
+</a></li></ul></div></div><div class="nav-item"><a href="https://www.dlubal.com/en" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  About
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://github.com/Dlubal-Software/RFEM_Python_Client" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Quick Start 🏃‍♀️</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/.github/guide/" aria-current="page" class="sidebar-link">Before You Start</a></li><li><a href="/.github/guide/getStarted.html" class="sidebar-link">Get Started</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>RFEM Python HLF 🐍</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>RSTAB Python HLF 🐍</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>.NET HLF 🕸️</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>JavaScript Commands 📜</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Tutorials 🗼</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="ws-application-methods-and-types"><a href="#ws-application-methods-and-types" class="header-anchor">#</a> WS Application Methods and Types</h1> <p>To obtain this list just execute print(client).</p> <p>Usage: client.service.get_active_model()</p> <h2 id="methods"><a href="#methods" class="header-anchor">#</a> Methods</h2> <p>Methods (29):</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token function">close_application</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token function">close_model</span><span class="token punctuation">(</span>xs<span class="token operator">:</span>int index<span class="token punctuation">,</span> <span class="token literal-property property">xs</span><span class="token operator">:</span>boolean save_changes<span class="token punctuation">)</span>
+<span class="token function">delete_project</span><span class="token punctuation">(</span>xs<span class="token operator">:</span>string project_path<span class="token punctuation">)</span>
+<span class="token function">get_active_model</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token function">get_conversion_tables</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token function">get_current_project</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token function">get_detailed_logging</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token function">get_information</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token function">get_list_of_existing_projects</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token function">get_list_of_existing_templates</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token function">get_model</span><span class="token punctuation">(</span>xs<span class="token operator">:</span>int index<span class="token punctuation">)</span>
+<span class="token function">get_model_list</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token function">get_project</span><span class="token punctuation">(</span>xs<span class="token operator">:</span>string project_path<span class="token punctuation">)</span>
+<span class="token function">get_saf_settings</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token function">get_settings_program_language</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token function">get_template</span><span class="token punctuation">(</span>xs<span class="token operator">:</span>string template_path<span class="token punctuation">)</span>
+<span class="token function">import_from</span><span class="token punctuation">(</span>xs<span class="token operator">:</span>string file_path<span class="token punctuation">)</span>
+<span class="token function">new_model</span><span class="token punctuation">(</span>xs<span class="token operator">:</span>string model_name<span class="token punctuation">)</span>
+<span class="token function">new_model_as_copy</span><span class="token punctuation">(</span>xs<span class="token operator">:</span>string model_name<span class="token punctuation">,</span> <span class="token literal-property property">xs</span><span class="token operator">:</span>string file_path<span class="token punctuation">)</span>
+<span class="token function">new_model_from_template</span><span class="token punctuation">(</span>xs<span class="token operator">:</span>string model_name<span class="token punctuation">,</span> <span class="token literal-property property">xs</span><span class="token operator">:</span>string file_path<span class="token punctuation">)</span>
+<span class="token function">new_project</span><span class="token punctuation">(</span>ns0<span class="token operator">:</span>project_info project_info<span class="token punctuation">)</span>
+<span class="token function">new_template</span><span class="token punctuation">(</span>ns0<span class="token operator">:</span>project_info template_info<span class="token punctuation">)</span>
+<span class="token function">open_model</span><span class="token punctuation">(</span>xs<span class="token operator">:</span>string model_path<span class="token punctuation">)</span>
+<span class="token function">save_model</span><span class="token punctuation">(</span>xs<span class="token operator">:</span>int index<span class="token punctuation">)</span>
+<span class="token function">set_as_current_project</span><span class="token punctuation">(</span>xs<span class="token operator">:</span>string project_path<span class="token punctuation">)</span>
+<span class="token function">set_conversion_tables</span><span class="token punctuation">(</span>ns0<span class="token operator">:</span>ConversionTables value<span class="token punctuation">)</span>
+<span class="token function">set_detailed_logging</span><span class="token punctuation">(</span>xs<span class="token operator">:</span>boolean value<span class="token punctuation">)</span>
+<span class="token function">set_saf_settings</span><span class="token punctuation">(</span>ns0<span class="token operator">:</span>SafConfiguration value<span class="token punctuation">)</span>
+<span class="token function">set_settings_program_language</span><span class="token punctuation">(</span>ns0<span class="token operator">:</span>settings_program_language settings_program_language<span class="token punctuation">)</span>
+</code></pre></div><h2 id="types"><a href="#types" class="header-anchor">#</a> Types</h2> <p>Types(80)</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token literal-property property">ns0</span><span class="token operator">:</span>ConversionTable
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>ConversionTables
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>MaterialConversionTablesManager
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>MaterialConversionTablesManager_config
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>MaterialConversionTablesManager_configs
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>SafConfiguration
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>SectionConversionTablesManager
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>SectionConversionTablesManager_config
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>SectionConversionTablesManager_configs
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>application_information
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>application_types
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>array_of_model_names
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>array_of_projects
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>array_of_templates
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>close_application
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>close_applicationResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>close_model
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>close_modelResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>delete_project
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>delete_projectResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_active_model
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_active_modelResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_conversion_tables
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_conversion_tablesResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_current_project
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_current_projectResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_detailed_logging
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_detailed_loggingResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_information
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_informationResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_list_of_existing_projects
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_list_of_existing_projectsResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_list_of_existing_templates
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_list_of_existing_templatesResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_model
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_modelResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_model_list
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_model_listResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_project
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_projectResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_saf_settings
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_saf_settingsResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_settings_program_language
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_settings_program_languageResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_template
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>get_templateResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>import_from
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>import_fromResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>import_from_output
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>new_model
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>new_modelResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>new_model_as_copy
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>new_model_as_copyResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>new_model_from_template
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>new_model_from_templateResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>new_project
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>new_projectResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>new_template
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>new_templateResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>open_model
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>open_modelResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>program_language_name_type
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>project_info
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>region_type
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>save_model
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>save_modelResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>set_as_current_project
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>set_as_current_projectResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>set_conversion_tables
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>set_conversion_tablesResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>set_detailed_logging
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>set_detailed_loggingResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>set_saf_settings
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>set_saf_settingsResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>set_settings_program_language
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>set_settings_program_languageResponse
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>settings_program_language
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>string_and_string_pair
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>string_and_string_pair_array
+<span class="token literal-property property">ns0</span><span class="token operator">:</span>unit_system_type
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/.github/assets/js/app.a4351b77.js" defer></script><script src="/.github/assets/js/2.b144fbf9.js" defer></script><script src="/.github/assets/js/72.143f237b.js" defer></script>
+  </body>
+</html>
